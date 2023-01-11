@@ -1,0 +1,50 @@
+.column-card-container {
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    width: 430px;
+    border: 1px solid #555;
+}
+.column-card {
+    margin-bottom: 2rem;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.title h3{
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    transition: 0.3s ease;
+}
+.title-h3 {
+    color: #000;
+}
+.desc {
+    font-size: 0.75rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.tags-desc {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.tags-desc>p,
+.desc>span {
+    color: #000;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.tags {
+    display: flex;
+}
+
+.tags p,
+.reactions {
+    margin-right: 0.25rem;
+    font-size: 0.75rem;
+    color: #000;
+}
