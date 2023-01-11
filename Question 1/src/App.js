@@ -6,7 +6,7 @@ import Card from "./Components/Card";
 function App() {
   const [data, setData] = useState([]);
   const [pageNum, setPageNum] = useState([]);
-  const pages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const pages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   useEffect(() => {
     setData([]);
     async function fetchData() {
